@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { useConnection } from '@solana/wallet-adapter-react';
 import { LAMPORTS_PER_SOL, Transaction, VersionedTransaction } from '@solana/web3.js';
-import { SwapMode } from '@jup-ag/api';
 
 const TOKENS = [
     { symbol: 'SOL', name: 'Solana', mint: 'So11111111111111111111111111111111111111112', decimals: 9 },
